@@ -21,9 +21,9 @@
             <div id="menuHeader" class="columnWith">
                 <ul id="mainMenu" class="menu">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li><a href="/">Registreren</a></li>
-                    <li><a href="/">Inloggen</a></li>
+                    <li><a href="/login">Inloggen</a></li>
                 </ul>
             </div>
         </header>
