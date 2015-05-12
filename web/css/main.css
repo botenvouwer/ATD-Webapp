@@ -26,8 +26,6 @@ ul.menu{
 }
 
 ul.menu li{
-    margin: 0px;
-    padding: 0px;
     float: left;
 }
 
@@ -45,7 +43,6 @@ ul.hmenu li{
 .mainWrap{
     padding-bottom: 240px;
 }
-<<<<<<< HEAD
 
 .nonselect{
     -webkit-touch-callout: none;
@@ -54,6 +51,18 @@ ul.hmenu li{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+/* tabel opmaak */
+
+.tableWrap{
+    position: absolute;
+    
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 54px;
+    overflow-y: auto;
 }
 
 table.dataTable{
@@ -81,8 +90,20 @@ table.dataTable td{
     padding: 5px 8px;
 }
 
-=======
-    /* form style */
+td.left, tr.left{
+    text-align: left;
+}
+
+td.center, tr.center{
+    text-align: center;
+}
+
+td.right, tr.right{
+    text-align: right;
+    
+}
+
+/* form style */
     
 input[type=text],[type=email]{
     border: solid 1px #808080; 
@@ -110,4 +131,3 @@ textarea{
     height: 130px;
     resize: none;
 }
->>>>>>> origin/schermontwerp

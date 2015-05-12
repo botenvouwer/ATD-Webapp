@@ -2,7 +2,7 @@
     <jsp:param name="title" value="Auto Totaal Dienst" />
 </jsp:include>
 <%@ page pageEncoding="UTF-8" %>
-<div id="content">
+<div class="content">
     <h1>Welkom in ons cms</h1>
     <p>Dit is content. </p>
 </div>

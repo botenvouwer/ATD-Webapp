@@ -3,8 +3,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link type="text/css" rel="stylesheet" href="/css/main.css">
         <link type="text/css" rel="stylesheet" href="/css/ATDcms.css">
+        <link type="text/css" rel="stylesheet" href="/css/main.css">
         <title>Auto Totaal Dienst</title>
     </head>
     <body>
@@ -20,22 +20,22 @@
                 <div id="sideBar" class="nonselect">
                     <div id="menuWrap">
                         <ul id="mainMenu" class="hmenu">
-                            <li>
+                            <li class="button">
                                 <a href="/cms" title="">CMS</a>
                             </li>
-                            <li>
+                            <li class="button">
                                 <a href="/cms/voorraad" title="">Voorraad</a>
                             </li>
-                            <li>
+                            <li class="button">
                                 <a href="/cms/voorraad" title="">Bestellingen</a>
                             </li>
-                            <li>
+                            <li class="button">
                                 <a href="/cms/werkplaats" title="">Werkplaats</a>
                             </li>
-                            <li>
+                            <li class="button">
                                 <a href="/cms/factuur" title="">Facturatie</a>
                             </li>
-                            <li>
+                            <li class="button">
                                 <a href="/cms/user" title="">Gebruikers</a>
                             </li>
                         </ul>

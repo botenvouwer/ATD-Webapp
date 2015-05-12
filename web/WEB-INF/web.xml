@@ -20,6 +20,10 @@
         <servlet-name>VoorraadBeheer</servlet-name>
         <servlet-class>Servlets.VoorraadBeheer</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Factuur</servlet-name>
+        <servlet-class>Servlets.Factuur</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HomePage</servlet-name>
         <url-pattern>/home</url-pattern>
@@ -39,6 +43,10 @@
     <servlet-mapping>
         <servlet-name>VoorraadBeheer</servlet-name>
         <url-pattern>/cms/voorraad</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Factuur</servlet-name>
+        <url-pattern>/cms/factuur</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

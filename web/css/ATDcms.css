@@ -40,7 +40,7 @@ header.main{
 #logo{
     top: 5px;
     
-    left: 5px;
+    left: 12px;
     position: absolute;
 }
 
@@ -54,19 +54,20 @@ header.main{
     
     right: 0px;
     text-align: center;
-    top: 15px;
+    top: 13px;
     position: absolute;
-    font-size: 20px;
-    font-weight: lighter;
+    font-size: 26px;
+    font-weight: bold;
     font-family: Arial;
 }
 
 #user{
     position: absolute;
     
-    right: 5px;
-    top: 10px;
+    right: 10px;
+    top: 20px;
     font-size: 16px;
+    text-decoration: underline;
 }
 
 /* sidebar */
@@ -88,23 +89,16 @@ header.main{
 }
 
 #mainMenu li{
-    cursor: pointer;
-    transition: all 0.2s;
-    background: rgb(38, 82, 172);
-    border: 3px outset rgb(64, 107, 194);
+   
 }
 
 #mainMenu li:hover{
-    transition: all 0.2s;
-    background: rgb(28, 71, 158);
-    border: 3px inset rgb(64, 107, 194);
+    
 }
 
 #mainMenu a{
-    text-decoration: none;
     display: block;
     padding: 11px 20px;
-    color: white;
 }
 
 #sideLogo{
@@ -121,7 +115,8 @@ header.main{
 
 /* content */
 #mainContent{
-    left: 205px;    right: 0px;    bottom: auto;    background: rgb(255, 255, 255);    height: 100%;    overflow-y: scroll;
+    left: 205px;    right: 0px;    bottom: auto;    background: rgb(255, 255, 255);    height: 100%;    
+    overflow-y: auto;
     
     position: absolute;    top: 0px;                
 }
@@ -131,8 +126,8 @@ header.main{
     
 }
 
-#content h1, #content h2, #content h3, #content p{
-    margin: 0px 0px 1em 0px;
+.content h1, .content h2, .content h3, .content p{
+    margin: 0px 0px 10px 0px;
 }
 
 footer.contentMenu{
@@ -143,4 +138,29 @@ footer.contentMenu{
     padding: 10px;
     right: 0px;
     left: 0px;
+    background: rgba(38, 82, 172, 0.28);
+}
+
+/* buttons */
+
+button, .button{
+    cursor: pointer;
+    transition: all 0.2s;
+    background: rgb(38, 82, 172);
+    border: 3px outset rgb(64, 107, 194);
+    text-decoration: none;
+    padding: 2px 30px;
+    color: white;
+    margin: 0px 2px;
+}
+
+.button > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button:hover, .button:hover{
+    transition: all 0.2s;
+    background: rgb(28, 71, 158);
+    border: 3px inset rgb(64, 107, 194);
 }
