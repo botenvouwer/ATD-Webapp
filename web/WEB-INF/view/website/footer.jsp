@@ -32,31 +32,6 @@
                         </tr>
                     </table>
                 </div>
-                <div>
-                    <header>Contactgegevens</header>
-                    <table>
-                        <tr>
-                            <td>Naam:</td>
-                            <td>Auto Totaal Diensten</td>
-                        </tr>
-                        <tr>
-                            <td>Postbus:</td>
-                            <td>Postbus 30435</td>
-                        </tr>
-                        <tr>
-                            <td>Postcode:</td>
-                            <td>3513 AP Utrecht</td>
-                        </tr>
-                        <tr>
-                            <td>Telefoonnummer:</td>
-                            <td>+(31) 202 600 084</td>
-                        </tr>
-                        <tr>
-                            <td>Faxnummer:</td>
-                            <td>+(31) 070 363 568</td>
-                        </tr>
-                    </table>
-                </div>
             </div>
             <div id="bottom">Copyright &copy; Auto Totaal Dienst (ATD). All Rights Reserved.</div>
         </footer>    
