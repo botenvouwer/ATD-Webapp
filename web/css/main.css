@@ -45,6 +45,7 @@ ul.hmenu li{
 .mainWrap{
     padding-bottom: 240px;
 }
+<<<<<<< HEAD
 
 .nonselect{
     -webkit-touch-callout: none;
@@ -80,3 +81,33 @@ table.dataTable td{
     padding: 5px 8px;
 }
 
+=======
+    /* form style */
+    
+input[type=text],[type=email]{
+    border: solid 1px #808080; 
+    border-radius: 8px; 
+    padding: 5px;
+    box-shadow: 1px 1px 2px #888888;
+    margin: 10px 5px;
+    width: 300px;
+}
+input[type=submit]{
+    border: solid 1px #808080; 
+    border-radius: 8px; 
+    padding: 5px;
+    box-shadow: 1px 1px 2px #888888;
+    margin: 10px 5px;
+    width: 300px;
+}
+textarea{
+    border: solid 1px #808080; 
+    border-radius: 8px; 
+    padding: 5px;
+    box-shadow: 1px 1px 2px #888888;
+    margin: 10px 5px;
+    width: 626px;
+    height: 130px;
+    resize: none;
+}
+>>>>>>> origin/schermontwerp

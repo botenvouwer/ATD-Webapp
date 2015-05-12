@@ -45,7 +45,14 @@ header.main{
 }
 
 #topHeader #logo{
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    font-size: 25px;
+>>>>>>> origin/schermontwerp
 }
 
 #topHeader #topInfo{
@@ -103,6 +110,11 @@ header.main{
     padding: 10px;
     max-width: 980px;
     min-height: 500px;
+}
+
+#error{
+    font-weight: bold;
+    color:#B20000;
 }
 
 /* footer style */
