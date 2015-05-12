@@ -8,3 +8,139 @@ and open the template in the editor.
     Author     : william
 */
 
+body{
+    overflow: hidden;
+}
+
+/* div body - de div dient als kunstmatige body */
+#main{
+    
+}
+
+#masterdiv{
+    top: 60px;    height: auto;
+    
+    position: absolute;        left: 0px;    right: 0px;    
+    bottom: 0px;
+}
+
+/* header */
+#mainHeader{
+    height: 60px;    
+    
+}
+
+header.main{
+    background-color: rgb(38, 82, 172);
+    
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+#logo{
+    top: 5px;
+    
+    left: 5px;
+    position: absolute;
+}
+
+#logo img{
+    height: 50px;
+    
+}
+
+#title{
+    left: 0px;
+    
+    right: 0px;
+    text-align: center;
+    top: 15px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial;
+}
+
+#user{
+    position: absolute;
+    
+    right: 5px;
+    top: 10px;
+    font-size: 16px;
+}
+
+/* sidebar */
+#sideBar{
+    right: auto;    
+    background: rgba(38, 82, 172, 0.28);    bottom: auto;    
+    width: 200px;    min-height: 100%;
+    
+    position: absolute;    top: 0px;    left: 0px;            
+    border-right: 5px solid rgb(38, 82, 172);
+}
+
+#menuWrap{
+    
+}
+
+#mainMenu{
+    
+}
+
+#mainMenu li{
+    cursor: pointer;
+    transition: all 0.2s;
+    background: rgb(38, 82, 172);
+    border: 3px outset rgb(64, 107, 194);
+}
+
+#mainMenu li:hover{
+    transition: all 0.2s;
+    background: rgb(28, 71, 158);
+    border: 3px inset rgb(64, 107, 194);
+}
+
+#mainMenu a{
+    text-decoration: none;
+    display: block;
+    padding: 11px 20px;
+    color: white;
+}
+
+#sideLogo{
+    bottom: -28px;
+    
+    left: 14px;
+    position: absolute;
+}
+
+#sideLogo img{
+    width: 160px;
+    
+}
+
+/* content */
+#mainContent{
+    left: 205px;    right: 0px;    bottom: auto;    background: rgb(255, 255, 255);    height: 100%;    overflow-y: scroll;
+    
+    position: absolute;    top: 0px;                
+}
+
+.content{
+    padding: 10px 10px;
+    
+}
+
+#content h1, #content h2, #content h3, #content p{
+    margin: 0px 0px 1em 0px;
+}
+
+footer.contentMenu{
+    position: absolute;
+    
+    bottom: 0px;
+    border-top: 6px solid rgb(38, 82, 172);
+    padding: 10px;
+    right: 0px;
+    left: 0px;
+}

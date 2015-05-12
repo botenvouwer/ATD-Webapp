@@ -31,6 +31,52 @@ ul.menu li{
     float: left;
 }
 
+ul.hmenu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.hmenu li{
+    margin: 0px;
+    padding: 0px;
+}
+
 .mainWrap{
     padding-bottom: 240px;
 }
+
+.nonselect{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+table.dataTable{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.dataTable th{
+    background: darkblue;
+    
+    color: white;
+    padding: 10px 0px;
+}
+
+table.dataTable tr{
+    background: rgba(38, 82, 172, 0.39);
+    
+}
+
+table.dataTable tr:nth-child(odd){
+    background: rgba(38, 82, 172, 0.11);
+}
+
+table.dataTable td{
+    padding: 5px 8px;
+}
+

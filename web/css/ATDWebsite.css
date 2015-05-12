@@ -45,9 +45,6 @@ header.main{
 }
 
 #topHeader #logo{
-    position: absolute;
-    left: 10px;
-    top: 10px;
     font-size: 20px;
 }
 
@@ -91,7 +88,7 @@ header.main{
     color: rgba(181, 181, 181, 1);
     text-decoration: none;
     display: block;
-    padding: 10px 20px;
+    padding: 11px 20px;
 }
 
 #mainMenu a:hover{
