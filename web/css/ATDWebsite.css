@@ -10,6 +10,10 @@ and open the template in the editor.
 
 /* main styles */
 
+html{
+    height: 100%;
+}
+
 .columnWith{
     min-width: 100px;
     max-width: 1000px;
@@ -20,6 +24,8 @@ body{
     background-image: url(../img/background.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
+    min-height: 100%;
+    position: relative;
 }
 
 /* header style */
@@ -112,14 +118,12 @@ footer.main{
     color: rgb(255, 255, 255);
     background: rgb(35, 35, 35);
     bottom: 0px;
-    position: static;
-    left: 0px;
-    right: 0px;
+    position: absolute;
+    width: 100%;
 }
 
 #bottomInfo{
     padding: 10px 0px;
-
     display: flex;
     justify-content: space-between;
 }

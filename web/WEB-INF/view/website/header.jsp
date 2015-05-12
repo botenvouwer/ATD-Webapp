@@ -27,4 +27,5 @@
                 </ul>
             </div>
         </header>
-        <div id="mainContent" class="content columnWith">
+        <div class="mainWrap">
+            <div id="mainContent" class="content columnWith">

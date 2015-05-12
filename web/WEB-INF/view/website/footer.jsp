@@ -1,6 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+            </div>
         </div>
-        <div class="footerSpace"></div>
         <footer id="mainFooter" class="main">
             <div id="bottomInfo" class="columnWith">
                 <div>
