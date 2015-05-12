@@ -47,8 +47,8 @@ header.main{
 #topHeader #logo{
     position: absolute;
     left: 10px;
-    top: 10px;
-    font-size: 20px;
+    top: 15px;
+    font-size: 25px;
 }
 
 #topHeader #topInfo{
@@ -108,6 +108,11 @@ header.main{
     min-height: 500px;
 }
 
+#error{
+    font-weight: bold;
+    color:#B20000;
+}
+
 /* footer style */
 
 .footerSpace{
@@ -148,4 +153,32 @@ footer.main{
     text-align: center;
     font-size: 12px;
     font-weight: lighter;
+}
+    /* form style */
+    
+input[type=text],[type=email]{
+    border: solid 1px #808080; 
+    border-radius: 8px; 
+    padding: 5px;
+    box-shadow: 1px 1px 2px #888888;
+    margin: 10px 5px;
+    width: 300px;
+}
+input[type=submit]{
+    border: solid 1px #808080; 
+    border-radius: 8px; 
+    padding: 5px;
+    box-shadow: 1px 1px 2px #888888;
+    margin: 10px 5px;
+    width: 300px;
+}
+textarea{
+    border: solid 1px #808080; 
+    border-radius: 8px; 
+    padding: 5px;
+    box-shadow: 1px 1px 2px #888888;
+    margin: 10px 5px;
+    width: 626px;
+    height: 130px;
+    resize: none;
 }
