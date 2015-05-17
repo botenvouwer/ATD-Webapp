@@ -105,7 +105,7 @@ td.right, tr.right{
 
 /* form style */
     
-input[type=text],[type=email]{
+input[type=text],[type=email],[type=password]{
     border: solid 1px #808080; 
     border-radius: 8px; 
     padding: 5px;
