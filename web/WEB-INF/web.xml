@@ -44,6 +44,10 @@
         <servlet-name>WelkomPagina</servlet-name>
         <servlet-class>servlet.WelkomPagina</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Autobeheer</servlet-name>
+        <servlet-class>servlet.Autobeheer</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HomePage</servlet-name>
         <url-pattern>/home</url-pattern>
@@ -87,6 +91,10 @@
     <servlet-mapping>
         <servlet-name>WelkomPagina</servlet-name>
         <url-pattern>/welkomPagina</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Autobeheer</servlet-name>
+        <url-pattern>/autobeheer</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
