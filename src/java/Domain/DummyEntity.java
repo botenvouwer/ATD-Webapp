@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package domain;
+package Domain;
 
-import domain.Person.Role;
+import Domain.Person.Role;
 import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;

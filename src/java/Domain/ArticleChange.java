@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package domain;
+package Domain;
 
-import static domain.ArticleChange.Kind.ORDER;
-import static domain.ArticleChange.Kind.USED;
+import static Domain.ArticleChange.Kind.ORDER;
+import static Domain.ArticleChange.Kind.USED;
 
 /**
  *
