@@ -27,7 +27,7 @@
                                 <a href="/cms/voorraad" title="">Voorraad</a>
                             </li>
                             <li class="button">
-                                <a href="/cms/voorraad" title="">Bestellingen</a>
+                                <a href="/cms/bestellingen" title="">Bestellingen</a>
                             </li>
                             <li class="button">
                                 <a href="/cms/werkplaats" title="">Werkplaats</a>
@@ -36,7 +36,7 @@
                                 <a href="/cms/factuur" title="">Facturatie</a>
                             </li>
                             <li class="button">
-                                <a href="/cms/user" title="">Gebruikers</a>
+                                <a href="/cms/gebruiker" title="">Gebruikers</a>
                             </li>
                         </ul>
                     </div>

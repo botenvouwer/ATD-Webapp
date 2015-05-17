@@ -14,7 +14,7 @@
             <th>Acties</th>
         </tr>
         <tr>
-            <td>A000001</td>
+            <td>F000001</td>
             <td><a href="/cms">Kees Appel</a></td>
             <td>€200,-</td>
             <td class="center">20-04-2014</td>
@@ -27,7 +27,7 @@
             </td>
         </tr>
         <tr>
-            <td>A000002</td>
+            <td>F000002</td>
             <td><a href="/cms">Kees Appel</a></td>
             <td>€200,-</td>
             <td class="center">20-04-2014</td>
@@ -40,7 +40,7 @@
             </td>
         </tr>
         <tr>
-            <td>A000003</td>
+            <td>F000003</td>
             <td><a href="/cms">Kees Appel</a></td>
             <td>€200,-</td>
             <td class="center">20-04-2014</td>
@@ -53,7 +53,7 @@
             </td>
         </tr>
         <tr>
-            <td>A000004</td>
+            <td>F000004</td>
             <td><a href="/cms">Kees Appel</a></td>
             <td>€200,-</td>
             <td class="center">20-04-2014</td>

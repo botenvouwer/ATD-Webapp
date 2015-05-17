@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Servlets;
+package servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author william
  */
-public class Factuur extends HttpServlet {
+public class VoorraadBeheer extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -33,7 +33,7 @@ public class Factuur extends HttpServlet {
         
         //logica hier
         
-        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/pageParts/Factuur.jsp");
+        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/pageParts/VoorraadBeheer.jsp");
         rd.forward(request, response);
     }
 

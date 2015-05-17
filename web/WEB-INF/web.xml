@@ -2,27 +2,39 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
         <servlet-name>HomePage</servlet-name>
-        <servlet-class>Servlets.HomePage</servlet-class>
+        <servlet-class>servlet.HomePage</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Contact</servlet-name>
-        <servlet-class>Servlets.Contact</servlet-class>
+        <servlet-class>servlet.Contact</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Login</servlet-name>
-        <servlet-class>Servlets.Login</servlet-class>
+        <servlet-class>servlet.Login</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CMS</servlet-name>
-        <servlet-class>Servlets.CMSPage</servlet-class>
+        <servlet-class>servlet.CMSPage</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>VoorraadBeheer</servlet-name>
-        <servlet-class>Servlets.VoorraadBeheer</servlet-class>
+        <servlet-class>servlet.VoorraadBeheer</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Factuur</servlet-name>
-        <servlet-class>Servlets.Factuur</servlet-class>
+        <servlet-class>servlet.Factuur</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Bestelling</servlet-name>
+        <servlet-class>servlet.Bestelling</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Gebruiker</servlet-name>
+        <servlet-class>servlet.Gebruiker</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Werkplaats</servlet-name>
+        <servlet-class>servlet.Werkplaats</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HomePage</servlet-name>
@@ -47,6 +59,18 @@
     <servlet-mapping>
         <servlet-name>Factuur</servlet-name>
         <url-pattern>/cms/factuur</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Bestelling</servlet-name>
+        <url-pattern>/cms/bestellingen</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Gebruiker</servlet-name>
+        <url-pattern>/cms/gebruiker</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Werkplaats</servlet-name>
+        <url-pattern>/cms/werkplaats</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
