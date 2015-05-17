@@ -36,6 +36,10 @@
         <servlet-name>Werkplaats</servlet-name>
         <servlet-class>servlet.Werkplaats</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Registreer</servlet-name>
+        <servlet-class>servlet.Registreer</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HomePage</servlet-name>
         <url-pattern>/home</url-pattern>
@@ -71,6 +75,10 @@
     <servlet-mapping>
         <servlet-name>Werkplaats</servlet-name>
         <url-pattern>/cms/werkplaats</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Registreer</servlet-name>
+        <url-pattern>/registreer</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -7,6 +7,16 @@
                     <header>Auto Totaal Diensten</header>
                     <p>Bij ons bedrijf kunt u voor al uw autowerkzaamheden terecht, denk hierbij aan APK, reparaties tot auto parkeren en tanken. Via ons uitgebreide systeem kunt u zelf afspraken inboeken en bekijken, facturen direct inzien en betalen en noem maar op.</p>
                 </div>
+                    
+                <div>
+                    <header>Contactgegevens:</header>
+                    <p>Beverstraat 1<br>
+                    3513 AP Utrecht<br>
+                    Telefoon: +(31) 202 600 084<br>
+                    Fax: +(31) 070 363 568<br>
+                    Postbus 30435</p>
+                </div>
+
                 <div>
                     <header>Openingstijden</header>
                     <table>
