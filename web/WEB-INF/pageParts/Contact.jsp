@@ -1,15 +1,7 @@
 <%@include file="/WEB-INF/view/website/header.jsp" %>
 <%@ page pageEncoding="UTF-8" %>
 <h2>Contact</h2>
-
-<div style="float: right; margin-right: 80px">
-    <h3>Contactgegevens:</h3>
-    <p>Beverstraat 1<br>
-    3513 AP Utrecht<br>
-    Telefoon: +(31) 202 600 084<br>
-    Fax: +(31) 070 363 568<br>
-    Postbus 30435</p>
-</div>
+<p>Voor eventuele vragen en/of opmerking kunt u ons een bericht sturen.</p>
 
 <div style="float: left">
     <h3>Contactformulier</h3>
