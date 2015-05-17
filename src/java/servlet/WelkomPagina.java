@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Frank
  */
-public class Registreer extends HttpServlet {
+public class WelkomPagina extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -36,7 +36,7 @@ public class Registreer extends HttpServlet {
         
         //logica hier
         
-        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/pageParts/Registreer.jsp");
+        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/pageParts/WelkomPagina.jsp");
         rd.forward(request, response);
         
         }

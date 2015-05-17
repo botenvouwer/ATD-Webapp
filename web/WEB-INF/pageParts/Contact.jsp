@@ -1,8 +1,9 @@
 <%@include file="/WEB-INF/view/website/header.jsp" %>
 <%@ page pageEncoding="UTF-8" %>
 <h2>Contact</h2>
-<p>Voor eventuele vragen en/of opmerking kunt u ons een bericht sturen.</p>
-
+<div style="float: right; margin-left: 35vw">
+    <p>Voor eventuele vragen en/of opmerkingen kunt u ons een bericht sturen.</p>
+</div>
 <div style="float: left">
     <h3>Contactformulier</h3>
     <% 
