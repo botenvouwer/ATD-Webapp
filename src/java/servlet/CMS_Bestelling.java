@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author william
  */
-public class Bestelling extends HttpServlet {
+public class CMS_Bestelling extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -33,7 +33,7 @@ public class Bestelling extends HttpServlet {
         
         //logica hier
         
-        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/pageParts/Bestelling.jsp");
+        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/pageParts/CMS_Bestelling.jsp");
         rd.forward(request, response);
     }
 

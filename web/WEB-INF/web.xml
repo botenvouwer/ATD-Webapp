@@ -2,51 +2,51 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
         <servlet-name>HomePage</servlet-name>
-        <servlet-class>servlet.HomePage</servlet-class>
+        <servlet-class>servlet.WEB_Homepage</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Contact</servlet-name>
-        <servlet-class>servlet.Contact</servlet-class>
+        <servlet-class>servlet.WEB_Contact</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Login</servlet-name>
-        <servlet-class>servlet.Login</servlet-class>
+        <servlet-class>servlet.WEB_Login</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CMS</servlet-name>
-        <servlet-class>servlet.CMSPage</servlet-class>
+        <servlet-class>servlet.CMS_Homepage</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>VoorraadBeheer</servlet-name>
-        <servlet-class>servlet.VoorraadBeheer</servlet-class>
+        <servlet-class>servlet.CMS_Voorraadbeheer</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Factuur</servlet-name>
-        <servlet-class>servlet.Factuur</servlet-class>
+        <servlet-class>servlet.CMS_Factuur</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Bestelling</servlet-name>
-        <servlet-class>servlet.Bestelling</servlet-class>
+        <servlet-class>servlet.CMS_Bestelling</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Gebruiker</servlet-name>
-        <servlet-class>servlet.Gebruiker</servlet-class>
+        <servlet-class>servlet.CMS_Gebruiker</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Werkplaats</servlet-name>
-        <servlet-class>servlet.Werkplaats</servlet-class>
+        <servlet-class>servlet.CMS_Werkplaats</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Registreer</servlet-name>
-        <servlet-class>servlet.Registreer</servlet-class>
+        <servlet-class>servlet.WEB_Registreer</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>WelkomPagina</servlet-name>
-        <servlet-class>servlet.WelkomPagina</servlet-class>
+        <servlet-class>servlet.WEB_Gebruiker</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Autobeheer</servlet-name>
-        <servlet-class>servlet.Autobeheer</servlet-class>
+        <servlet-class>servlet.WEB_Autobeheer</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HomePage</servlet-name>
