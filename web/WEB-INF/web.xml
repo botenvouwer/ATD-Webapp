@@ -37,6 +37,10 @@
         <servlet-class>servlet.CMS_Bestelling</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>Bestelling_Aanmaken</servlet-name>
+        <servlet-class>servlet.CMS_Bestelling_Aanmaken</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>Gebruiker</servlet-name>
         <servlet-class>servlet.CMS_Gebruiker</servlet-class>
     </servlet>
@@ -99,6 +103,10 @@
     <servlet-mapping>
         <servlet-name>Bestelling</servlet-name>
         <url-pattern>/cms/bestellingen</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Bestelling_Aanmaken</servlet-name>
+        <url-pattern>/cms/bestellingen/aanmaken</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Gebruiker</servlet-name>

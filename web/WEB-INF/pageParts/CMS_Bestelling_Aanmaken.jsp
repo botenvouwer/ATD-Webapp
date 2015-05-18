@@ -1,5 +1,5 @@
 <jsp:include page="/WEB-INF/view/cms/header.jsp">
-    <jsp:param name="title" value="Factuur Aanmaken" />
+    <jsp:param name="title" value="Bestelling Aanmaken" />
 </jsp:include>
 <%@ page pageEncoding="UTF-8" %>
 <form class="form">
@@ -25,7 +25,7 @@
     </div>
 </div>
 <footer class="contentMenu">
-    <button type="submit">Factuur aanmaken</button>
+    <button type="submit">Bestelling aanmaken</button>
 </footer>
 </form>
 <%@include file="/WEB-INF/view/cms/footer.jsp" %>
