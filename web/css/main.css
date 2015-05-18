@@ -113,6 +113,7 @@ input[type=text],[type=email],[type=password],[type=date]{
     box-shadow: 1px 1px 2px #888888;
     margin: 10px 5px;
     width: 300px;
+    outline: none;    
 }
 input[type=submit],[type=button]{
     border: solid 1px #808080; 
@@ -121,6 +122,7 @@ input[type=submit],[type=button]{
     box-shadow: 1px 1px 2px #888888;
     margin: 10px 5px;
     width: 300px;
+    outline: none;
 }
 textarea{
     font-family: arial;
@@ -132,4 +134,5 @@ textarea{
     width: 626px;
     height: 130px;
     resize: none;
+    outline: none;
 }
