@@ -237,3 +237,44 @@ button:hover, .button:hover{
     background: #ffc8c5;
     border: 1px solid #e58081;
 }
+
+/* wrkplaats card view */
+
+.werkplaats{
+    
+}
+
+.werkplaats > div{
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 3px solid rgb(38, 82, 172);
+    position: relative;
+}
+
+.werkplaats input[type=button]{
+    padding: 5px 5px;
+    
+}
+
+.werkplaats > div > div{
+      padding: 0px 5px;
+}
+
+.werkplaats .infoCard{
+    min-width: 140px;
+    
+}
+
+.werkplaats .noteCard{
+    border-left: 4px dotted rgb(38, 82, 172);
+    
+    padding: 0px 10px;
+    border-right: 4px dotted rgb(38, 82, 172);
+    width: 50%;
+}
+
+.werkplaats .articleCard{
+    
+}

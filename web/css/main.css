@@ -109,19 +109,19 @@ input[type=text],[type=email],[type=password],[type=date]{
     font-family: arial;
     border: solid 1px #808080; 
     border-radius: 8px; 
-    padding: 5px;
+    padding: 5px 100px;
     box-shadow: 1px 1px 2px #888888;
     margin: 10px 5px;
-    width: 300px;
+    max-width: 300px;
     outline: none;    
 }
 input[type=submit],[type=button]{
     border: solid 1px #808080; 
     border-radius: 8px; 
-    padding: 5px;
+    padding: 5px 100px;
     box-shadow: 1px 1px 2px #888888;
     margin: 10px 5px;
-    width: 300px;
+    max-width: 300px;
     outline: none;
 }
 textarea{
