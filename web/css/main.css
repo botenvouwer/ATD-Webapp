@@ -105,7 +105,8 @@ td.right, tr.right{
 
 /* form style */
     
-input[type=text],[type=email],[type=password]{
+input[type=text],[type=email],[type=password],[type=date]{
+    font-family: arial;
     border: solid 1px #808080; 
     border-radius: 8px; 
     padding: 5px;
@@ -113,7 +114,7 @@ input[type=text],[type=email],[type=password]{
     margin: 10px 5px;
     width: 300px;
 }
-input[type=submit]{
+input[type=submit],[type=button]{
     border: solid 1px #808080; 
     border-radius: 8px; 
     padding: 5px;
@@ -122,6 +123,7 @@ input[type=submit]{
     width: 300px;
 }
 textarea{
+    font-family: arial;
     border: solid 1px #808080; 
     border-radius: 8px; 
     padding: 5px;
