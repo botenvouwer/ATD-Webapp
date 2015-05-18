@@ -17,7 +17,7 @@
             <td>arni@hotmail.com</td>
             <td>Monteur</td>
             <td class="right">
-                <button>Aanpassen</button>
+                <button onclick="window.location.href='gebruiker/aanpassen'">Aanpassen</button>
             </td>
         </tr>
         <tr>
@@ -26,7 +26,7 @@
             <td>wwmolen@hotmail.com</td>
             <td>Klant</td>
             <td class="right">
-                <button>Aanpassen</button>
+                <button onclick="window.location.href='gebruiker/aanpassen'">Aanpassen</button>
             </td>
         </tr>
         <tr>
@@ -35,7 +35,7 @@
             <td>k.lomo@hotmail.com</td>
             <td>Chef</td>
             <td class="right">
-                <button>Aanpassen</button>
+                <button onclick="window.location.href='gebruiker/aanpassen'">Aanpassen</button>
             </td>
         </tr>
     </table>
@@ -43,7 +43,7 @@
 <footer class="contentMenu">
     <ul class="menu">
         <li class="button">
-            <a href="/cms/" title="">Gebruiker aanmaken</a>
+            <a href="gebruiker/aanmaken" title="">Gebruiker aanmaken</a>
         </li>
     </ul>
 </footer>

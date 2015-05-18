@@ -166,7 +166,7 @@ button:hover, .button:hover{
 }
 
 /* inputs */
-.form input[type=submit] {
+.form button[type=submit] {
     cursor: pointer;
     transition: all 0.2s;
     background: rgb(38, 82, 172);
@@ -176,6 +176,7 @@ button:hover, .button:hover{
     color: white;
     margin: 0px 2px;
     width: auto;
+    font-size: 16px;
 }
  
 .form .form-group label {
