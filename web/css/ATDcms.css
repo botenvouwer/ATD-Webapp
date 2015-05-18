@@ -164,3 +164,75 @@ button:hover, .button:hover{
     background: rgb(28, 71, 158);
     border: 3px inset rgb(64, 107, 194);
 }
+
+/* inputs */
+.form input[type=submit] {
+    cursor: pointer;
+    transition: all 0.2s;
+    background: rgb(38, 82, 172);
+    border: 3px outset rgb(64, 107, 194);
+    text-decoration: none;
+    padding: 2px 30px;
+    color: white;
+    margin: 0px 2px;
+    width: auto;
+}
+ 
+.form .form-group label {
+    display: inline-block;
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+}
+ 
+.form .form-group small {
+    margin-left: 209px;
+    margin-top: -7px;
+    display: block;
+    font-size: 70%;
+}
+ 
+.form .form-group input,
+.form .form-group select,
+.form .form-group textarea {
+    border: solid 1px #808080;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 1px 1px 2px #888888;
+    margin: 10px 5px;
+   
+    outline: none;
+    width: calc(100% - 227px);
+}
+ 
+.form .form-group input[type=checkbox] {
+    width: auto;
+}
+ 
+.form .form-group select {
+    width: calc(100% - 215px);
+    height: 25px;
+}
+ 
+.form .form-group input:focus {
+    border: 1px solid black;
+}
+ 
+.form .form-success,
+.form .form-error {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+ 
+.form .form-success {
+    color: #397053;
+    background: #c6f2d7;
+    border: 1px solid #8ccca7;
+}
+ 
+.form .form-error {
+    color: #ec2d2e;
+    background: #ffc8c5;
+    border: 1px solid #e58081;
+}
