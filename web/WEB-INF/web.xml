@@ -25,6 +25,14 @@
         <servlet-class>servlet.CMS_Factuur</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>Factuur_Aanmaken</servlet-name>
+        <servlet-class>servlet.CMS_Factuur_Aanmaken</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Factuur_Aanpassen</servlet-name>
+        <servlet-class>servlet.CMS_Factuur_Aanpassen</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>Bestelling</servlet-name>
         <servlet-class>servlet.CMS_Bestelling</servlet-class>
     </servlet>
@@ -79,6 +87,14 @@
     <servlet-mapping>
         <servlet-name>Factuur</servlet-name>
         <url-pattern>/cms/factuur</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Factuur_Aanmaken</servlet-name>
+        <url-pattern>/cms/factuur/aanmaken</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Factuur_Aanpassen</servlet-name>
+        <url-pattern>/cms/factuur/aanpassen</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Bestelling</servlet-name>

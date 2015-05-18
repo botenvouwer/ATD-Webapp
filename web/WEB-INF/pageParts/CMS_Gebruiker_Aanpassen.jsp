@@ -6,13 +6,13 @@
 <div class="tableWrap content">
     <div class="form-group">
         <label for="name">Naam:</label>
-        <input type="text" name="name" id="name" />
+        <input type="text" name="name" id="name" value="Arnoud de Kip" />
         <small>Let op: de naam mag nog niet in gebruik zijn bij een andere gebruiker.</small>
     </div>
     
     <div class="form-group">
         <label for="email">E-mailadres:</label>
-        <input type="email" name="email" id="email" />
+        <input type="email" name="email" id="email" value="arni@hotmail.com" />
         <small>[email]@[provider].[extensie]</small>
     </div>
     
@@ -21,7 +21,7 @@
         
         <select name="role" id="role">
             <option>Klant</option>
-            <option>Monteur</option>
+            <option selected>Monteur</option>
             <option>Chef</option>
         </select>
     </div>

@@ -21,9 +21,8 @@
             <td class="center">Nee</td>
             <td class="center">14-04-2014</td>
             <td class="right">
-                <button>Aanpassen</button>
+                <button onclick="window.location.href='factuur/aanpassen'">Aanpassen</button>
                 <button>Uitboeken</button>
-                <button>Verzenden</button>
             </td>
         </tr>
         <tr>
@@ -34,9 +33,8 @@
             <td class="center">Nee</td>
             <td class="center">14-04-2014</td>
             <td class="right">
-                <button>Aanpassen</button>
+                <button onclick="window.location.href='factuur/aanpassen'">Aanpassen</button>
                 <button>Uitboeken</button>
-                <button>Verzenden</button>
             </td>
         </tr>
         <tr>
@@ -47,9 +45,8 @@
             <td class="center">Nee</td>
             <td class="center">14-04-2014</td>
             <td class="right">
-                <button>Aanpassen</button>
+                <button onclick="window.location.href='factuur/aanpassen'">Aanpassen</button>
                 <button>Uitboeken</button>
-                <button>Verzenden</button>
             </td>
         </tr>
         <tr>
@@ -60,9 +57,8 @@
             <td class="center">Nee</td>
             <td class="center">14-04-2014</td>
             <td class="right">
-                <button>Aanpassen</button>
+                <button onclick="window.location.href='factuur/aanpassen'">Aanpassen</button>
                 <button>Uitboeken</button>
-                <button>Verzenden</button>
             </td>
         </tr>
     </table>
@@ -70,13 +66,10 @@
 <footer class="contentMenu">
     <ul class="menu">
         <li class="button">
-            <a href="/cms/" title="">Factuur toevoegen</a>
+            <a href="factuur/aanmaken" title="">Factuur toevoegen</a>
         </li>
         <li class="button">
             <a href="/cms/" title="">Alles verzenden</a>
-        </li>
-        <li class="button">
-            <a href="/cms/" title="">Toon alles</a>
         </li>
         <li class="button">
             <a href="/cms/" title="">Toon openstaand</a>
