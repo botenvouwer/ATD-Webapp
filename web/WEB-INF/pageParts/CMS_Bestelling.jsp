@@ -46,7 +46,7 @@
 <footer class="contentMenu">
     <ul class="menu">
         <li class="button">
-            <a href="bestelling/aanmaken" title="">Nieuwe bestelling</a>
+            <a href="bestellingen/aanmaken" title="">Nieuwe bestelling</a>
         </li>
         <li class="button">
             <a href="/cms/" title="">Toon afgeronde</a>
