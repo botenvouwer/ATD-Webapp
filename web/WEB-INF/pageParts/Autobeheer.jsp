@@ -17,30 +17,35 @@
         <td>31-GHB-2</td>
         <td>Peugeot</td>
         <td>106</td>
+        <td><a href="">Details</a></td>
     </tr>
     <tr>
         <td>53</td>
         <td>73-XTC-2</td>
         <td>Peugeot</td>
         <td>107</td>
+        <td><a href="">Details</a></td>
     </tr>
     <tr>
         <td>85</td>
         <td>97-THC-7</td>
         <td>Peugeot</td>
         <td>206</td>
+        <td><a href="">Details</a></td>
     </tr>
     <tr>
         <td>122</td>
         <td>48-HSJ-4</td>
         <td>Peugeot</td>
         <td>306</td>
+        <td><a href="">Details</a></td>
     </tr>
     <tr>
         <td>74</td>
         <td>73-PHP-1</td>
         <td>Peugeot</td>
         <td>507</td>
+        <td><a href="">Details</a></td>
     </tr>
     </table>
 </div>

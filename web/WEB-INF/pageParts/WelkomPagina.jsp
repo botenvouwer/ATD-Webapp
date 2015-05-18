@@ -6,6 +6,7 @@
     <a href="/reparatie">Reparatie</a>
     <a href="/tankbeurt">Tankbeurt</a>
     <a href="/parkeren">Parkeren</a>
+    <a href="/autobeheer">Auto's in behandeling</a>
 </div>
 <form action="post">
     <input type="submit" value="Uitloggen">
