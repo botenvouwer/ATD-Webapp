@@ -15,9 +15,9 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author Frank
+ * @author william
  */
-public class WelkomPagina extends HttpServlet {
+public class CMS_Factuur extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -28,18 +28,13 @@ public class WelkomPagina extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
-            response.setContentType("text/html;charset=UTF-8");
         
         //logica hier
         
-        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/pageParts/WelkomPagina.jsp");
+        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/pageParts/CMS_Factuur.jsp");
         rd.forward(request, response);
-        
-        }
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

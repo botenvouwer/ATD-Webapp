@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author william
  */
-public class Werkplaats extends HttpServlet {
+public class CMS_Homepage extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -33,8 +33,9 @@ public class Werkplaats extends HttpServlet {
         
         //logica hier
         
-        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/pageParts/Werkplaats.jsp");
+        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/pageParts/CMS_Homepage.jsp");
         rd.forward(request, response);
+        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
