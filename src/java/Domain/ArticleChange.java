@@ -7,14 +7,24 @@ package Domain;
 
 import static Domain.ArticleChange.Kind.ORDER;
 import static Domain.ArticleChange.Kind.USED;
+import java.io.Serializable;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
 
 /**
  *
  * @author Nigel
  */
-public class ArticleChange {
+@Entity
+public class ArticleChange implements Serializable{
     private int quantity;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int number;
+    @OneToOne
     private Article article;
     public enum Kind {ORDER, USED};
     Kind kind;

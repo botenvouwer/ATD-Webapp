@@ -5,11 +5,20 @@
  */
 package Domain;
 
+import java.io.Serializable;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 /**
  *
  * @author Nigel
  */
-public class InvoiceLine {
+@Entity
+public class InvoiceLine implements Serializable{
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int number;
     private double btw = 0.21;
     private String description;
@@ -17,15 +26,13 @@ public class InvoiceLine {
     private double discount = 0;
     private int quantity;
     
-    public InvoiceLine(int number, String description, double price, int quantity) {
-        this.number = number;
+    public InvoiceLine(String description, double price, int quantity) {
         this.description = description;
         this.price = price;
         this.quantity = quantity;
     }
     
-    public InvoiceLine(int number, String description, double price, int quantity, double discount) {
-        this.number = number;
+    public InvoiceLine(String description, double price, int quantity, double discount) {
         this.description = description;
         this.price = price;
         this.quantity = quantity;

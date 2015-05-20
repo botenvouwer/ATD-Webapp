@@ -5,25 +5,33 @@
  */
 package Domain;
 
+import java.io.Serializable;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 /**
  *
  * @author Nigel
  */
-public class Article {
+@Entity
+public class Article implements Serializable {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    
     private int number;
     private String name;
     private double price;
     private int stock;
     
     public Article(int number, String name, double price) {
-        this.number = number;
         this.name = name;
         this.price = price;
         this.stock = 0;
     }
     
     public Article(int number, String name, double price, int stock) {
-        this.number = number;
         this.name = name;
         this.price = price;
         this.stock = stock;

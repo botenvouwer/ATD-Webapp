@@ -5,21 +5,30 @@
  */
 package Domain;
 
+import java.io.Serializable;
 import java.util.ArrayList;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 /**
  *
  * @author Nigel
  */
-public class Car {
+@Entity
+public class Car implements Serializable{
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int number;
     private String licensePlate;
     private String make;
     private String model;
+    @OneToMany
     private ArrayList<Task> allTasks;
     
-    public Car(int number, String licensePlate, String make, String model) {
-        this.number = number;
+    public Car(String licensePlate, String make, String model) {
         this.licensePlate = licensePlate;
         this.make = make;
         this.model = model;

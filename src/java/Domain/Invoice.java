@@ -5,16 +5,28 @@
  */
 package Domain;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 
 /**
  *
  * @author Nigel
  */
-public class Invoice {
+@Entity
+public class Invoice implements Serializable{
+    @OneToMany
     private ArrayList<InvoiceLine> allLines;
+    @ManyToOne
     private Customer theCustomer;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int number;
     private LocalDate date;
     private boolean paid;
@@ -24,7 +36,6 @@ public class Invoice {
     public Invoice(Customer theCustomer, int number, LocalDate date) {
         this.theCustomer = theCustomer;
         allLines = new ArrayList<>();
-        this.number = number;
         this.date = date;
         paid = false;
         discount = 0;
@@ -33,7 +44,6 @@ public class Invoice {
     public Invoice(Customer theCustomer, int number, LocalDate date, double discount) {
         allLines = new ArrayList<>();
         this.theCustomer = theCustomer;
-        this.number = number;
         this.date = date;
         this.discount = discount;
         paid = false;
