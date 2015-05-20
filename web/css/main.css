@@ -78,12 +78,12 @@ table.dataTable th{
 }
 
 table.dataTable tr{
-    background: rgba(38, 82, 172, 0.39);
+    background: rgba(169, 187, 222, 1);
     
 }
 
 table.dataTable tr:nth-child(odd){
-    background: rgba(38, 82, 172, 0.11);
+    background: rgba(230, 235, 245, 1);
 }
 
 table.dataTable td{
@@ -105,18 +105,19 @@ td.right, tr.right{
 
 /* form style */
     
-input[type=text],[type=email],[type=password],[type=date]{
+form input[type=text], form [type=email], form [type=password], form [type=date]{
     font-family: arial;
     border: solid 1px #808080; 
     border-radius: 8px; 
-    padding: 5px 100px;
+    padding: 5px 10px;
     box-shadow: 1px 1px 2px #888888;
     margin: 10px 5px;
     max-width: 300px;
     outline: none;    
 }
+
 input[type=submit],[type=button]{
-    border: solid 1px #808080; 
+    border: outset 1px rgb(128, 128, 128); 
     border-radius: 8px; 
     padding: 5px 100px;
     box-shadow: 1px 1px 2px #888888;
@@ -124,7 +125,14 @@ input[type=submit],[type=button]{
     max-width: 300px;
     outline: none;
 }
-textarea{
+
+input[type=submit]:hover,[type=button]:hover{
+    border: inset 1px rgb(128, 128, 128);
+    
+    box-shadow: 0px 0px 0px rgb(136, 136, 136);
+}
+
+form textarea{
     font-family: arial;
     border: solid 1px #808080; 
     border-radius: 8px; 

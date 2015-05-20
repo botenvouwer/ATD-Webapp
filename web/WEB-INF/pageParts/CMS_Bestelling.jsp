@@ -17,8 +17,8 @@
             <td class="center">34</td>
             <td>In bestelling</td>
             <td class="right">
-                <button>Uitboeken</button>
-                <button>Verzenden</button>
+                <button>Bestelling is binnen</button>
+                <button>Annuleren</button>
             </td>
         </tr>
         <tr>
@@ -27,8 +27,8 @@
             <td class="center">34</td>
             <td>Niet geleverd</td>
             <td class="right">
-                <button>Uitboeken</button>
-                <button>Verzenden</button>
+                <button>Bestelling is binnen</button>
+                <button>Annuleren</button>
             </td>
         </tr>
         <tr>
@@ -37,8 +37,8 @@
             <td class="center">34</td>
             <td>Geleverd</td>
             <td class="right">
-                <button>Uitboeken</button>
-                <button>Verzenden</button>
+                <button>Bestelling is binnen</button>
+                <button>Annuleren</button>
             </td>
         </tr>
     </table>

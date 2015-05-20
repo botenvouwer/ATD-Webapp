@@ -241,16 +241,31 @@ button:hover, .button:hover{
 /* wrkplaats card view */
 
 .werkplaats{
+    position: absolute;
     
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 54px;
+    overflow: auto;
 }
 
 .werkplaats > div{
-    display: flex;
-    
+    display: flex;    
     justify-content: space-between;
-    padding: 10px 0px;
+    padding: 0px;
     border-bottom: 3px solid rgb(38, 82, 172);
     position: relative;
+}
+
+.werkplaats > div.done{
+    background: rgb(66, 226, 66);
+    
+}
+
+.werkplaats > div.busy{
+    background: rgb(255, 107, 0);
+    
 }
 
 .werkplaats input[type=button]{
@@ -259,22 +274,46 @@ button:hover, .button:hover{
 }
 
 .werkplaats > div > div{
-      padding: 0px 5px;
+      padding: 10px 5px;
 }
 
 .werkplaats .infoCard{
-    min-width: 140px;
-    
+    min-width: 160px;
+    position: relative;
+    padding: 10px 5px 42px 10px;
+}
+
+.werkplaats .infoCard > div{
+    padding-bottom: 4px;
+}
+
+.repairType{
+    position: absolute;
+    right: 8px;
+    top: 5px;
+}
+
+.werkplaats .infoCard input{
+    position: absolute;
+    bottom: 0px;
+    right: 6px;
 }
 
 .werkplaats .noteCard{
-    border-left: 4px dotted rgb(38, 82, 172);
+    border-left: 4px solid rgb(38, 82, 172);
     
-    padding: 0px 10px;
-    border-right: 4px dotted rgb(38, 82, 172);
+    padding: 10px 10px;
+    border-right: 4px solid rgb(38, 82, 172);
     width: 50%;
 }
 
 .werkplaats .articleCard{
+    width: 50%;
     
+    padding: 0px;
+    background: rgb(169, 187, 222);
+}
+
+.werkplaats .articleCard input[type=number]{
+    width: 60px;
 }
